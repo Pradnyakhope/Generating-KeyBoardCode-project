@@ -1,0 +1,87 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(244, 238, 249); */
+    background-color: rgb(245, 221, 245);
+}
+
+input {
+    width: 90%; /* Set width to a percentage for flexibility */
+    max-width: 500px;
+    background-color: rgb(50, 46, 33);
+    margin: 20px auto; /* Center horizontally */
+    box-shadow: 2px 3px rgb(213, 188, 236);
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#log, #keyCode {
+    width: 80%;
+    max-width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(186, 150, 220);
+    box-shadow: 2px 5px rgb(37, 28, 45);
+    margin: 20px auto; /* Center horizontally */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+#displayKey, #text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 20px;
+    /* background-color: rgb(246, 200, 246); */
+    background-color: rgb(245, 221, 245);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    input, #log, #keyCode, #text {
+        font-size: 22px;
+        padding: 25px;
+    }
+}
+@media (min-width: 320px) {
+    input, #log, #keyCode, #text {
+        font-size: 22px;
+        padding: 20px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    input, #log, #keyCode, #text {
+        font-size: 24px;
+        padding: 30px;
+        
+    }
+    input {
+        width: 500px;
+        margin: 50px auto 0 auto;
+    }
+}
+
+
+
+ 
